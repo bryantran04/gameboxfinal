@@ -8,39 +8,36 @@
 /bazel-out
 
 # dependencies
-/node_modules
+/gb-angular/node_modules
 
 # profiling files
-chrome-profiler-events*.json
-speed-measure-plugin*.json
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
-
-# System Files
-.DS_Store
-Thumbs.db
+/gb-angular/chrome-profiler-events*.json
+/gb-angular/speed-measure-plugin*.json
+/gb-angular/# IDEs and editors
+/gb-angular//.idea
+/gb-angular/.project
+/gb-angular/.classpath
+/gb-angular/.c9/
+/gb-angular/*.launch
+/gb-angular/.settings/
+/gb-angular/*.sublime-workspace
+/gb-angular/# IDE - VSCode
+/gb-angular/.vscode/*
+/gb-angular/!.vscode/settings.json
+/gb-angular/!.vscode/tasks.json
+/gb-angular/!.vscode/launch.json
+/gb-angular/!.vscode/extensions.json
+/gb-angular/.history/*
+/gb-angular/# misc
+/gb-angular//.sass-cache
+/gb-angular//connect.lock
+/gb-angular//coverage
+/gb-angular//libpeerconnection.log
+/gb-angular/npm-debug.log
+/gb-angular/yarn-error.log
+/gb-angular/testem.log
+/gb-angular//typings
+/gb-angular/# System Files
+/gb-angular/.DS_Store
+/gb-angular/Thumbs.db
+node_modules

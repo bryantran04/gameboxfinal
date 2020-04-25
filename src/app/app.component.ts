@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-
+import { HttpClient, HttpErrorResponse, HttpParams } from '@angular/common/http';
+import { Listing } from './listing';
+import { ListingService } from './listing.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gb-angular';
+
 }
